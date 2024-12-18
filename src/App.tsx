@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Header from './components/header'
 import './App.css'
+import MainConttenet from './components/mainComponent'
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
         {/*-----------HEADER----------------*/}
         <Header/>
 
-        
+        {/*-----------MainComponent----------*/}
+        <MainConttenet/>
       </div>
     </>
   )
